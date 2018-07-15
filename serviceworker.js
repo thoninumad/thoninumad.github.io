@@ -1,11 +1,11 @@
 var CACHE_NAME = 'my-site-cache-v2';
 var urlsToCache = [
-  '/pwaapi',
-  'fallback.json',
-  'css/main.css',
-  'js/jquery.min.js',
-  'js/main.js',
-  'images/logo-ise.png'
+  '/',
+  '/fallback.json',
+  '/css/main.css',
+  '/js/jquery.min.js',
+  '/js/main.js',
+  '/images/logo-ise.png'
 ];
 
 self.addEventListener('install', function(event) {
@@ -41,7 +41,7 @@ self.addEventListener('fetch', function(event) {
         }).catch(function() {
           return caches.match(request).then(function(response) {
             if(response) return response;
-            return caches.match('fallback.json');
+            return caches.match('/fallback.json');
           })
         })
       })
