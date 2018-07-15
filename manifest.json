@@ -8,23 +8,23 @@
   "Scope": "/",
   "start_url": "/index.html",
   "icons": [{
-    "src": "images/logo-ise-128.png",
+    "src": "/images/logo-ise-128.png",
     "type": "image/png",
     "sizes": "128x88"
   }, {
-    "src": "images/logo-ise-144.png",
+    "src": "/images/logo-ise-144.png",
     "type": "image/png",
     "sizes": "144x144"
   }, {
-    "src": "images/logo-ise-152.png",
+    "src": "/images/logo-ise-152.png",
     "type": "image/png",
     "sizes": "152x105"
   }, {
-    "src": "images/logo-ise-192.png",
+    "src": "/images/logo-ise-192.png",
     "type": "image/png",
     "sizes": "192x133"
   },{
-    "src": "images/logo-ise-512.png",
+    "src": "/images/logo-ise-512.png",
     "type": "image/png",
     "sizes": "512x354"
   }],
