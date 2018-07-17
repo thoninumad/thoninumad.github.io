@@ -5,7 +5,6 @@ var urlsToCache = [
   '/css/main.css',
   '/js/jquery.min.js',
   '/js/main.js',
-  '/images/favicon.ico',
   '/images/logo-ise.png'
 ];
 
